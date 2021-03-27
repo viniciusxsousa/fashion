@@ -1,0 +1,176 @@
+body{
+    margin: auto;
+    width: 76%;
+    background-image: url(bg_detalhe.png);
+}
+
+.barra_principal{
+    background-color: #081a24;
+    height: 50px;
+}
+
+.barra_principal img{
+    float: left;
+    padding-left: 170px;
+    padding-top: 5px;
+}
+
+.barra_principal ul{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.barra_principal ul li{
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #425564;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.barra_principal a{
+    text-decoration: none;
+    color: #425564;
+    transition: color .3s linear;
+}
+
+.barra_principal a:hover{
+    color: white;
+}
+
+.texto{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 40px;
+    color: rgb(31, 30, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto p{
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(20, 20, 20);
+}
+
+.imagem{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.foto{
+    width: 30%;
+    float: left;
+}
+
+.um, .dois{
+    margin-right: 40px;
+}
+
+.photo{
+    display: block;
+    width: 100%;
+}
+
+.imagem h2, h3{
+    text-align: center;
+
+}
+
+.imagem h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+    padding-bottom: 0;
+    letter-spacing: 4px;
+}
+
+.imagem h3{
+    color: rgb(100, 100, 100);
+}
+
+.foto h3{  
+    margin-top: 0;
+    
+}
+
+.foto h2{
+    margin-bottom: 0;
+    margin-left: 10px;
+    
+}
+
+.fundo_azul{
+   background-color: #003d52;;
+   margin-top: 90px;
+   box-sizing: border-box;
+   padding: 80px;
+   background-image: url(../imagens/bg_detalhe.png);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+
+.fundo_azul h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0%;
+    color: rgb(231, 231, 231);        
+}
+
+.fundo_azul p{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 40%;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.call {
+    text-align: center;
+    color: #003d52;
+    text-transform: uppercase;    
+}
+
+.call h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.call h3{
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.rodape{
+    background-color: #001018;
+    color: #47868f;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 45px;
+    margin-bottom: 80px;
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    }
+
+.rodape h2{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.rodape a{
+    font-weight: 100;
+    text-decoration: none;
+    color: #47868f;
+}
